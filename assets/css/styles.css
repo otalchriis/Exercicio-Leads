@@ -247,3 +247,31 @@ header{
     margin-right: -48px;
 }
 /* Finalização da SEGUNDA PARTE */
+
+/* TERCEIRA PARTE */
+
+.terceira-parte{
+    background-color: #a59e9e;
+    height: 320px;
+    padding-left: 11%;
+    display: flex;
+    
+}
+
+.terceira-parte h1{
+    font-family: 'roboto', cursive;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 50;
+}
+
+.terceira-parte p{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(3, 3, 3);
+    font-size: 0.7rem;
+
+    
+}
+
+.move-frm{
+}
