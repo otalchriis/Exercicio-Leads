@@ -1,0 +1,114 @@
+/* RESET */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Finalização do RESET */
+
+
+
+/* HEADER */
+
+header{
+    background-color: #16A600;
+    min-height: 0.5vw;
+}
+
+/* Finalização do HEADER */
+
+
+
+
+
+/* Section FUNDO */
+
+.fundo_pai{
+    width: 100%;
+    min-height: 100%; 
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.fundo_pai > .info{
+    /* border: #16A600 1px solid; */
+    height: 290px;
+    align-self: center;
+    width: 43%;
+    padding-left: 11%;
+}
+
+.info h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.9rem;
+    color: #fff;
+    font-weight: 50;
+}
+
+.info spam {
+    color: #16A600;
+    font-size: 2.9rem;
+}
+
+.info p{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+
+.info .images{
+    /* border: #16A600 1px solid; */
+    margin-top: 20px;
+    display: flex;
+    width: 50%;;
+    justify-content: space-between;
+   
+    
+  
+    
+}
+
+.info .images .redondo{
+    border-radius: 50%;
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    opacity: 0.7;  
+}
+
+.info .images .redondo:hover{
+   background-color: #16A600;
+}
+
+.info .images .redondo img{
+    padding: 16px;  
+}
+
+
+
+.maos{
+    border: 1px solid #16A600;
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+.maos img{
+   
+}
